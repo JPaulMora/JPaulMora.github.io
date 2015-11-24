@@ -1,2 +1,2 @@
-dpkg-deb -b ../../io.github.JPaulMora.SecFix
+dpkg-deb -b ../../io.github.jpaulmora.secfix
 mv ../../*.deb .
