@@ -1,7 +1,7 @@
 ./remove.sh
 ./packages.sh
 
-dpkg-scanpackages -m ../../ > Packages
+dpkg-scanpackages -m . > Packages
 bzip2 -k Packages
 
 head -n 9 Release > R2
