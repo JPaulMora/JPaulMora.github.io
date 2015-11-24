@@ -4,10 +4,10 @@ Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Depends: apt7, socat, nano
 Filename: ../..///jpaulmora.github.io/repo/SecFix.deb
-Size: 12600
-MD5sum: 72bd82d28281e0611317250f7880977f
-SHA1: ab13a0de20f0eeb088d65828f74f7989dc53a2d8
-SHA256: 04ade1a8e1a01bd1df40efd866850ebce6a16bc490bccfcd5254f848f9b7b574
+Size: 12590
+MD5sum: f29d763225c961128d275fea49e0fe05
+SHA1: ce26d969bdbe77402c49269185b5693575b5b777
+SHA256: c270bd01d5b542458d5aa2c05baf1c0ef4ceb2dcc7df8303c8da9ba8b925e2f7
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
