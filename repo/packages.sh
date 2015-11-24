@@ -1,1 +1,2 @@
-dpkg-deb -b SecFix
+dpkg-deb -b ../../SecFix
+mv ../../*.deb .
