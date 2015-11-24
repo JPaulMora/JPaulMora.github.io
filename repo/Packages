@@ -3,11 +3,11 @@ Version: 1.6.1
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Depends: apt7, socat, nano
-Filename: .//io.github.jpaulmora.secfix.deb
+Filename: .//secfix.deb
 Size: 12590
-MD5sum: 0ecbbfc101be0c85a2fdc2c3c4715576
-SHA1: 9d0cd78dbff20dea324f8ea6589460808ead59bf
-SHA256: 97eaed403d43648c913d8c9774eb2a9e9a60d64cb6a6daaafd4ea369658f6875
+MD5sum: d148bd286dafde2a0fb17d7131b9fc16
+SHA1: 71998fc62fdcee4c21385cdcb454d2e26180ad11
+SHA256: ab829945afa00155983eee04f0da5967a37e1c89730bd3b66f3424d5153575e9
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io

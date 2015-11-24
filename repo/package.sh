@@ -1,0 +1,2 @@
+dpkg-deb -b secfix
+
