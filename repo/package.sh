@@ -1,2 +1,2 @@
-dpkg-deb -b secfix
+iosod build ../../secfix .
 
