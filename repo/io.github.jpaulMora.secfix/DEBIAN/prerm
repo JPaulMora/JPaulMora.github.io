@@ -1,0 +1,6 @@
+#!/bin/bash
+
+launchctl unload -w /Library/LaunchDaemons/io.github.JPaulMora.SecFix.plist
+
+
+exit 0

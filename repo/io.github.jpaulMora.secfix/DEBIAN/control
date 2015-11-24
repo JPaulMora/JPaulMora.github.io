@@ -1,0 +1,14 @@
+Package: io.github.JPaulMora.SecFix
+Name: SecFix
+Version: 1.6.1
+Description: This package AutoMagically installs a bunch of useful stuff to your device.
+Section: System
+Depends: apt7, socat, nano
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: JPaulMora
+Depiction: http://jpaulmora.github.io
+Homepage: http://jpaulmora.github.io
+Maintainer: JPaulMora

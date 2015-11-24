@@ -5,9 +5,9 @@ Maintainer: JPaulMora
 Depends: apt7, socat, nano
 Filename: ../..///jpaulmora.github.io/repo/io.github.jpaulmora.secfix.deb
 Size: 12590
-MD5sum: 572d334dbebe31226bda95eff57ed031
-SHA1: 80037f83c8556c0f8f57c7b24c13d16c07f26ba4
-SHA256: 0bcff2c539ca742165ac0afcc6fde316ded58a30d1e984294711a5c3f466d9f5
+MD5sum: b4b2802cab7b44a025ae937d1571a68d
+SHA1: a9255d73670228f43c693245138ae493870c5253
+SHA256: 3ec2561ee7d05c14cbaf7d2bbc5e8a977a6746ab5aba59187775411d634d556a
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
