@@ -190,7 +190,7 @@ GameManager.prototype.logResults = function() {
 			document.getElementById("run-button").click();
 			document.getElementById("run-button").click();
 
-		}, 2000 );
+		}, 200 );
 	}
 
 };
