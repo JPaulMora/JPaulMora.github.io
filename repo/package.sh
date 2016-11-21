@@ -1,1 +1,2 @@
-#iosod build ../../secfix .
+iosod build ../../secfix .
+
