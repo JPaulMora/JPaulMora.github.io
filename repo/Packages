@@ -1,3 +1,22 @@
+Package: io.JPaulMora.github.python
+Version: 2.7.6-3
+Architecture: iphoneos-arm
+Maintainer: jdelman <http://github.com/jdelman/>
+Installed-Size: 82056
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Filename: ./io.JPaulMora.github.python_2.7.6-3_iphoneos-arm.deb
+Size: 16829646
+MD5sum: 4e5ecfaef78934c30c438958f2187232
+SHA1: a9f2b88ed9d65a498ed77ddeb5f973955f1d76f9
+SHA256: c64e78f5c663d3b30d3d06fa2c306c5bf03cfd710f655e1e31cabf2898c4cae1
+Section: Scripting
+Priority: optional
+Homepage: http://www.python.org/
+Description: architectural programming language
+Tag: purpose::console
+Name: Python
+Sponsor: Linus Yang <http://linusyang.com/>
+
 Package: io.github.JPaulMora.SecFix
 Version: 1.6.1
 Architecture: iphoneos-arm
