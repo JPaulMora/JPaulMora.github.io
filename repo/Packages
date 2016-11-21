@@ -20,12 +20,11 @@ Package: io.github.JPaulMora.crunch
 Version: 3.6
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
-Conflicts: crunch64
 Filename: ./io.github.JPaulMora.crunch_3.6_iphoneos-arm.deb
-Size: 25446
-MD5sum: 0cd1048ec485427258274f197bc930bf
-SHA1: 9ff0bd9299548d9621704b710cf1e4b152cfba65
-SHA256: f87cac69adb1874d7e3496612552abf268794d0c5d2ff9b2118b592e4153a078
+Size: 50098
+MD5sum: dea40103b72510a961170ee38a21b41b
+SHA1: ad6705287debfbd27fd1cd089a68fe2685b3410e
+SHA256: faf8c79560caebca5ea182c3963821e22e5d38e73fedce6545606d7e5a23d482
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
@@ -34,21 +33,20 @@ Author: JPaulMora
 Depiction: http://jpaulmora.github.io
 Name: crunch
 
-Package: io.github.JPaulMora.crunch
-Version: 3.6
-Architecture: iphoneos-arm64
+Package: io.github.JPaulMora.md5crack
+Version: 1.0
+Architecture: iphoneos-arm
 Maintainer: JPaulMora
-Conflicts: crunch
-Filename: ./io.github.JPaulMora.crunch_3.6_iphoneos-arm64.deb
-Size: 25210
-MD5sum: 78fec922083f1e8bd47f79561b5312e3
-SHA1: cabe5db4e566905acd40550ea40a1a2d7b45c608
-SHA256: d1714af78de49fff64410bf57834dac45e48a84a57d7c5fa184cb9c1a898b595
+Filename: ./io.github.JPaulMora.md5crack_1.0_iphoneos-arm.deb
+Size: 92962
+MD5sum: feaeaabbb3c96b678595a62954e7185f
+SHA1: c1fc74126a1701ae32c9e3e830a06a75f1c3e8e1
+SHA256: 5bc647a0e3711b48378a9232669423b7e30001e94670e15de22c4c2ce77d39c9
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
-Description: The classic Wordlist generator, for iPhone (64bit).
+Description: A very basic MD5 hash cracker, expect very bad performance.
 Author: JPaulMora
 Depiction: http://jpaulmora.github.io
-Name: crunch64
+Name: md5crack
 
