@@ -3,7 +3,7 @@ Version: 1.6.1
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Depends: apt7, socat, nano
-Filename: .//io.github.JPaulMora.SecFix_1.6.1_iphoneos-arm.deb
+Filename: ./io.github.JPaulMora.SecFix_1.6.1_iphoneos-arm.deb
 Size: 24780
 MD5sum: 2b448f73fa69cf34747321850556f51b
 SHA1: 5dd1d389a4f1b430140839ea7434b0583361b479
@@ -15,4 +15,39 @@ Description: This package AutoMagically installs a bunch of useful stuff to your
 Author: JPaulMora
 Depiction: http://jpaulmora.github.io
 Name: SecFix
+
+Package: io.github.JPaulMora.crunch
+Version: 3.6
+Architecture: iphoneos-arm
+Maintainer: JPaulMora
+Conflicts: crunch
+Filename: ./io.github.JPaulMora.crunch_3.6_iphoneos-arm.deb
+Size: 25444
+MD5sum: e8e0ef636859d7f9050d0cfe21dd33dc
+SHA1: 250e3a50b4dbddeba5241b0e64c31456055bfe68
+SHA256: 74876bdf6de9388a05ed76269cbae932fc4c881a41edb609389515f777b37c49
+Section: System
+Priority: optional
+Homepage: http://jpaulmora.github.io
+Description: The classic Wordlist generator, for iPhone.
+Author: JPaulMora
+Depiction: http://jpaulmora.github.io
+Name: crunch
+
+Package: io.github.JPaulMora.crunch
+Version: 3.6
+Architecture: iphoneos-arm64
+Maintainer: JPaulMora
+Filename: ./io.github.JPaulMora.crunch_3.6_iphoneos-arm64.deb
+Size: 25212
+MD5sum: 5be08e72360aabc5910a19ca5515bc43
+SHA1: e87d6338d7d666faa586d34a12fa7404a2c7b8f5
+SHA256: f92c073c05d087d54bf6cc4c4f1a0caafb36427643dd87b8b2d4bd2e73fbadec
+Section: System
+Priority: optional
+Homepage: http://jpaulmora.github.io
+Description: The classic Wordlist generator, for iPhone (64bit).
+Author: JPaulMora
+Depiction: http://jpaulmora.github.io
+Name: crunch
 

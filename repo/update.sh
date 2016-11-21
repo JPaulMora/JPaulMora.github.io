@@ -19,6 +19,4 @@ sz2=$(wc -c < Packages.bz2 | sed 's/ //g')
 
 echo -e " $md51 $sz1 Packages\n $md52 $sz2 Packages.bz2" >> Release
 echo "[*] Signing Release"
-gpg -abs -u 2FD4C7A6 -o Release.gpg Release
-
-
+gpg -abs -u 7B9EED6F -o Release.gpg Release
