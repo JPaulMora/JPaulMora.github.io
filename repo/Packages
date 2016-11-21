@@ -38,10 +38,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Filename: ./io.github.JPaulMora.md5crack_1.0_iphoneos-arm.deb
-Size: 92962
-MD5sum: feaeaabbb3c96b678595a62954e7185f
-SHA1: c1fc74126a1701ae32c9e3e830a06a75f1c3e8e1
-SHA256: 5bc647a0e3711b48378a9232669423b7e30001e94670e15de22c4c2ce77d39c9
+Size: 43522
+MD5sum: dc0382b9dc0e593ba71296de676529d8
+SHA1: 0bebe892e2280348e8f58d67a3294b36a990eacf
+SHA256: 31dd07a451edfdadfc0c53f1b7bbffe55b0b474edf8d7be9a983d9907ee18c1d
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
