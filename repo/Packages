@@ -5,10 +5,10 @@ Maintainer: jdelman <http://github.com/jdelman/>
 Installed-Size: 82056
 Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
 Filename: ./io.JPaulMora.github.python_2.7.6-3_iphoneos-arm.deb
-Size: 16829646
-MD5sum: 4e5ecfaef78934c30c438958f2187232
-SHA1: a9f2b88ed9d65a498ed77ddeb5f973955f1d76f9
-SHA256: c64e78f5c663d3b30d3d06fa2c306c5bf03cfd710f655e1e31cabf2898c4cae1
+Size: 17487288
+MD5sum: 337bca7f8ce350de911554b6add9b206
+SHA1: ac53028a43c3d3a4a40e137a1a63665646d418fe
+SHA256: 6453d49aba29d291d50d1a9b1a0f66a47c1cf4a3edffc1bb63d97bf452da471f
 Section: Scripting
 Priority: optional
 Homepage: http://www.python.org/
@@ -17,37 +17,20 @@ Tag: purpose::console
 Name: Python
 Sponsor: Linus Yang <http://linusyang.com/>
 
-Package: io.github.JPaulMora.SecFix
-Version: 1.6.1
-Architecture: iphoneos-arm
-Maintainer: JPaulMora
-Depends: apt7, socat, nano
-Filename: ./io.github.JPaulMora.SecFix_1.6.1_iphoneos-arm.deb
-Size: 24780
-MD5sum: 2b448f73fa69cf34747321850556f51b
-SHA1: 5dd1d389a4f1b430140839ea7434b0583361b479
-SHA256: 2b6fded1c83473a0c8118deb16b46b307fb0d6de393119460e436b89aa715d8a
-Section: System
-Priority: optional
-Homepage: http://jpaulmora.github.io
-Description: This package AutoMagically installs a bunch of useful stuff to your device.
-Author: JPaulMora
-Depiction: http://jpaulmora.github.io
-Name: SecFix
-
 Package: io.github.JPaulMora.crunch
 Version: 3.6
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Filename: ./io.github.JPaulMora.crunch_3.6_iphoneos-arm.deb
-Size: 50098
-MD5sum: dea40103b72510a961170ee38a21b41b
-SHA1: ad6705287debfbd27fd1cd089a68fe2685b3410e
-SHA256: faf8c79560caebca5ea182c3963821e22e5d38e73fedce6545606d7e5a23d482
+Size: 50112
+MD5sum: 670d8deb077436dd47b529c2fa10d273
+SHA1: a4c6c15184940871ffab1dbe930087bb00535a5b
+SHA256: b7befff93de9d6893b34028de1c7e69d5a74e07703c7bd36c3cf271fb695da37
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
 Description: The classic Wordlist generator, for iPhone.
+Tag: purpose::console
 Author: JPaulMora
 Depiction: http://jpaulmora.github.io
 Name: crunch
@@ -57,14 +40,15 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: JPaulMora
 Filename: ./io.github.JPaulMora.md5crack_1.0_iphoneos-arm.deb
-Size: 43522
-MD5sum: dc0382b9dc0e593ba71296de676529d8
-SHA1: 0bebe892e2280348e8f58d67a3294b36a990eacf
-SHA256: 31dd07a451edfdadfc0c53f1b7bbffe55b0b474edf8d7be9a983d9907ee18c1d
+Size: 43540
+MD5sum: 3bdcb736f5e2a07d6069f004a61dc48b
+SHA1: 99aaa7e6b867b1d14fec69f7142c016c6bd0ce25
+SHA256: 585f9fd1432d9b5329f0b0f1edb107ea56d614ea5b1d2580ecb0b6dfe8f5124f
 Section: System
 Priority: optional
 Homepage: http://jpaulmora.github.io
 Description: A very basic MD5 hash cracker, expect very bad performance.
+Tag: purpose::console
 Author: JPaulMora
 Depiction: http://jpaulmora.github.io
 Name: md5crack
