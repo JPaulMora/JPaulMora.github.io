@@ -1,22 +1,3 @@
-Package: io.JPaulMora.github.python
-Version: 2.7.6-3
-Architecture: iphoneos-arm
-Maintainer: jdelman <http://github.com/jdelman/>
-Installed-Size: 82056
-Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
-Filename: ./io.JPaulMora.github.python_2.7.6-3_iphoneos-arm.deb
-Size: 17487288
-MD5sum: 337bca7f8ce350de911554b6add9b206
-SHA1: ac53028a43c3d3a4a40e137a1a63665646d418fe
-SHA256: 6453d49aba29d291d50d1a9b1a0f66a47c1cf4a3edffc1bb63d97bf452da471f
-Section: Scripting
-Priority: optional
-Homepage: http://www.python.org/
-Description: architectural programming language
-Tag: purpose::console
-Name: Python
-Sponsor: Linus Yang <http://linusyang.com/>
-
 Package: io.github.JPaulMora.crunch
 Version: 3.6
 Architecture: iphoneos-arm
@@ -52,4 +33,44 @@ Tag: purpose::console
 Author: JPaulMora
 Depiction: http://jpaulmora.github.io
 Name: md5crack
+
+Package: io.github.JPaulMora.python
+Version: 2.7.6-3
+Architecture: iphoneos-arm
+Maintainer: jdelman <http://github.com/jdelman/>
+Installed-Size: 87040
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Conflicts: python, io.github.JPaulMora.python64
+Filename: ./io.github.JPaulMora.python_2.7.6-3_iphoneos-arm.deb
+Size: 15016576
+MD5sum: 03757909e5d93593a8bcfd32c281b505
+SHA1: c18b1c9dbece4a9afb3cd12c23e9a73290853eda
+SHA256: caad754e08bc67773396f94c98a517a18bca51b7b367b1e76fadad647bd2f6fd
+Section: Scripting
+Priority: optional
+Homepage: http://www.python.org/
+Description: architectural programming language.
+Tag: purpose::console, role::developer
+Name: Python
+Sponsor: Linus Yang <http://linusyang.com/>
+
+Package: io.github.JPaulMora.python64
+Version: 2.7.6-3
+Architecture: iphoneos-arm
+Maintainer: jdelman <http://github.com/jdelman/>
+Installed-Size: 87040
+Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
+Conflicts: python, io.github.JPaulMora.python
+Filename: ./io.github.JPaulMora.python64_2.7.6-3_iphoneos-arm.deb
+Size: 15016578
+MD5sum: 7d50f9308c50d842d56970038acce487
+SHA1: 599d6bc68cff1249c6b49a7e997a42b8ff04d132
+SHA256: 6d544df88b3260344cdf9ee0b822af75990e262e5e3fe85434330a8a4cf775b3
+Section: Scripting
+Priority: optional
+Homepage: http://www.python.org/
+Description: architectural programming language.
+Tag: purpose::console, role::developer
+Name: Python 64bit.
+Sponsor: Linus Yang <http://linusyang.com/>
 
