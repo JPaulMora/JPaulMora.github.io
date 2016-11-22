@@ -37,40 +37,36 @@ Name: md5crack
 Package: io.github.JPaulMora.python
 Version: 2.7.6-3
 Architecture: iphoneos-arm
-Maintainer: jdelman <http://github.com/jdelman/>
 Installed-Size: 87040
 Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
 Conflicts: python, io.github.JPaulMora.python64
 Filename: ./io.github.JPaulMora.python_2.7.6-3_iphoneos-arm.deb
-Size: 15016576
-MD5sum: 03757909e5d93593a8bcfd32c281b505
-SHA1: c18b1c9dbece4a9afb3cd12c23e9a73290853eda
-SHA256: caad754e08bc67773396f94c98a517a18bca51b7b367b1e76fadad647bd2f6fd
+Size: 15016786
+MD5sum: 04944ef35ec82d798d73bdbb08632c70
+SHA1: ad41c14f8e6b116d345856467af55bea700b5061
+SHA256: ee382e6f8ebdfab69ae554f39ecaa80c7f169054b9c048ee4f130a34a61ec89c
 Section: Scripting
 Priority: optional
 Homepage: http://www.python.org/
-Description: architectural programming language.
+Description: Python 2.7.6-3. Thanks to http://github.com/jdelman/
 Tag: purpose::console, role::developer
 Name: Python
-Sponsor: Linus Yang <http://linusyang.com/>
 
 Package: io.github.JPaulMora.python64
 Version: 2.7.6-3
 Architecture: iphoneos-arm
-Maintainer: jdelman <http://github.com/jdelman/>
 Installed-Size: 87040
 Depends: berkeleydb, bzip2, libffi, ncurses, openssl, readline, sqlite3
 Conflicts: python, io.github.JPaulMora.python
 Filename: ./io.github.JPaulMora.python64_2.7.6-3_iphoneos-arm.deb
-Size: 15016578
-MD5sum: 7d50f9308c50d842d56970038acce487
-SHA1: 599d6bc68cff1249c6b49a7e997a42b8ff04d132
-SHA256: 6d544df88b3260344cdf9ee0b822af75990e262e5e3fe85434330a8a4cf775b3
+Size: 15016766
+MD5sum: 41c59384c26fbff9a64772b6f5286d2c
+SHA1: ddfe17dea973e2c4e6a42cadfbdd307ccf9ba290
+SHA256: 5ebc54c1cc6dcccd7495df17ed3e34ea5f85a143a24511444b5db192572985a7
 Section: Scripting
 Priority: optional
 Homepage: http://www.python.org/
-Description: architectural programming language.
+Description: Python 2.7.6-3 for A7+ Chips. Thanks to http://github.com/jdelman/
 Tag: purpose::console, role::developer
 Name: Python 64bit.
-Sponsor: Linus Yang <http://linusyang.com/>
 
