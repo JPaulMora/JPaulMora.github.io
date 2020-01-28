@@ -2,12 +2,15 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.jpg
+# image: 01.jpg
 ---
 
-Hi, my name is Alex Rodriguez. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies. Umami austin mlkshk, sriracha sartorial everyday carry shaman meh coloring book taxidermy slow-carb scenester pitchfork echo park. Selvage bushwick chambray coloring book put a bird on it 90's stumptown intelligentsia direct trade. Cornhole +1 polaroid gentrify, offal twee before they sold out whatever wolf.
+Hi, my name is Juan Pablo Mora, welcome to my blog! This is my first attempt at a personal blog, for now I intend to post
+about whatever I find cool or useful in my day to day, I've played with hacking tools, IoT boards, lots of linux distros and develpment frameworks, all of which I plan to write about. Over time as I get better at writting, this blog should become my personal tech wiki and journal, which I hope some day it'll save someone a few hours of their life.
 
 ***
+
+### Things I've worked on..
 
 #### Austin scenester...
 <small>2008 - 2018</small>
