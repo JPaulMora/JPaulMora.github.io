@@ -5,25 +5,30 @@ permalink: /about/
 # image: 01.jpg
 ---
 
-Hi, my name is Juan Pablo Mora, welcome to my blog! This is my first attempt at a personal blog, for now I intend to post
-about whatever I find cool or useful in my day to day, I've played with hacking tools, IoT boards, lots of linux distros and develpment frameworks, all of which I plan to write about. Over time as I get better at writting, this blog should become my personal tech wiki and journal, which I hope some day it'll save someone a few hours of their life.
+Hi, my name is Juan Pablo Mora, welcome to my blog! This is my first attempt at a personal blog, for now I intend to post about whatever I find cool or useful in my day to day, I've played with hacking tools, IoT boards, lots of linux distros and develpment frameworks, all of which I plan to write about. Over time as I get better at writting, this blog should become my personal wiki and journal, which I hope some day will save someone a few debugging hours.
 
 ***
 
 ### Things I've worked on..
 
-#### Austin scenester...
-<small>2008 - 2018</small>
+#### Cognits
+<small>2020 - Present</small>
 
-Offal post-ironic before they sold out mixtape you probably haven't heard of them. Pinterest roof party umami everyday carry street art. Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Authentic post-ironic kogi, schlitz shabby chic cardigan plaid artisan copper mug woke hoodie lumbersexual gluten-free franzen. Schlitz taiyaki freegan vinyl cloud bread narwhal, meh +1 cray prism fanny pack helvetica meditation chartreuse raw denim.
+I'm currently a full stack developer at [Cognits](https://www.cognits.co), I recently got my [Kony](https://www.kony.com) developer certification. For now, I look forward to keep working on this excelent company.
 
-#### Vinyl hexagon before...
-<small>2001 - 2008</small>
+#### Deawebo Projects
+<small>2019 - Present</small>
 
-Chillwave helvetica swag quinoa messenger bag hexagon poutine selfies thundercats small batch hell of godard roof party XOXO. Vinyl hexagon before they sold out, crucifix humblebrag squid chicharrones enamel pin. Iceland humblebrag farm-to-table, lyft pug tilde irony.
-Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicle meggings, gluten-free deep v you probably haven't heard of them taxidermy iPhone gentrify seitan. Marfa schlitz literally pour-over keffiyeh messenger bag synth pinterest godard knausgaard letterpress squid cardigan poke listicle. 
+[Deawebo Projects](https://deaweboprojects.com) is my first official company, for now we offer consulting services for Websites and custom web applications.
 
-#### La croix you probably...
-<small>1995 - 2000</small>
+#### 1st. Place Hacking Challenge Winner
 
-Shoreditch activated charcoal iceland hexagon. Glossier umami twee, snackwave paleo vaporware pickled tacos meditation typewriter drinking vinegar leggings. Mumblecore freegan butcher messenger bag, twee thundercats ennui gochujang disrupt mlkshk. Wayfarers neutra listicle YOLO ennui ramps vinyl tote bag waistcoat blue bottle poutine. Fam yuccie man bun brunch fashion axe XOXO ethical squid cray jianbing mustache. Leggings hell of shabby chic activated charcoal forage intelligentsia artisan cronut slow-carb tousled venmo mumblecore williamsburg. Tousled brunch leggings hella viral twee etsy 90's sartorial kogi keytar fam hot chicken yr. Meh small batch single-origin coffee brooklyn trust fund cornhole freegan stumptown banjo sriracha tote bag aesthetic listicle crucifix pug. Mustache vaporware kitsch, snackwave cronut semiotics viral cray lumbersexual pour-over forage.
+For years I've liked the security aspects of technology, but I had nothing to show for it other than some CTF profiles here and there. I got a nice cash prize and a new TV. 
+
+* [Source 0](https://revistaitnow.com/conozca-al-ganador-del-hacking-challenge-guatemala-2018/)
+* [Source 1](https://www.hackingchallenge.net/index.php/noticias/156-hacking-challenge-2018-guatemala-todo-un-exito)
+
+#### Limitless Blockchain Technologies LLC
+<small>2018 - 2019</small>
+
+I worked as Lead Developer on the [Limitless VPN](https://limitlessvpn.com) project. I was in charge of the cryptocurrency mining aspect of the client, and slowly took over the security and quality aspects of the whole client side part of the project. 
