@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-# image: 01.jpg
+image: tmux.png
 ---
 
 Hi, my name is Juan Pablo Mora, welcome to my blog! This is my first attempt at a personal blog, for now I intend to post about whatever I find cool or useful in my day to day, I've played with hacking tools, IoT boards, lots of linux distros and develpment frameworks, all of which I plan to write about. Over time as I get better at writting, this blog should become my personal wiki and journal, which I hope some day will save someone a few debugging hours.
