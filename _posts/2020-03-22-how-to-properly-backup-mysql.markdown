@@ -18,17 +18,17 @@ The goal of this post is to have a reliable way of restoring a MySQL database to
 
 Create the file `/etc/cron.weekly/mariadb-backup` with `sudo nano /etc/cron.weekly/mariadb-backup` and populate it with:
 
-```
+```bash
 #!/bin/bash
 pass=mypass
 threads=4
-/usr/bin/mysqldump -u root -p$pass -A -R -E --triggers --single-transaction | /usr/bin/xz -T $threads > /var/log/mysql/deawebobak_`/bin/date +%d_%b_%Y_%H_%M_%S`.sql.xz
+/usr/bin/mysqldump -u root -p$pass -A -R -E --triggers --single-transaction | /usr/bin/xz -T $threads > /var/log/mysql/bak_`/bin/date +%d_%b_%Y_%H_%M_%S`.sql.xz
 ```
 This script creates a full backup of the MySQL installation, and then runs it through **XZ** for compression. Make sure to change `pass` and `threads` to the root MySQL password and the number of available cores respecively.
 
 We also need to set permissions on this file, cron won't run it if they're not properly set, plus we'll be storing a password in plaintext so it's very important to make sure nobody can read it other than root.
 
-```
+```bash
 chmod 0711 /etc/cron.weekly/mariadb-backup   # -rwx--x--x 
 ```
 

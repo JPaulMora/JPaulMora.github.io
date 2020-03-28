@@ -28,14 +28,14 @@ Most likely, you and me have less redunancy than Google or Cloudflare, so our ch
 Fire up a shell, first we're gonna download duplicati from https://www.duplicati.com/download, Duplicati is multiplatform so you could also skip the Ubuntu steps and go straight to Duplicati Setup.
 
 #### Download duplicati from debian/ubuntu link using wget
-```
+```bash
 wget https://updates.duplicati.com/beta/duplicati_2.0.5.1-1_all.deb
 ```
 
 #### Install MONO
 Duplicati is written in .NET framework, so we'll install `mono` package from their official repository. **This takes some time**
 
-```
+```bash
 # Add repository PGP key
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
 
@@ -53,7 +53,7 @@ sudo apt install mono-devel gtk-sharp2 libappindicator0.1-cil libappindicator1 l
 
 Our next step is to install the duplicati deb, this first time will fail, but will tell `apt` about the required dependencies.
 
-```
+```bash
 # Install using DPKG
 sudo dpkg -i duplicati_2.0.5.1-1_all.deb
 ```
@@ -82,7 +82,7 @@ WantedBy=multi-user.target
 
 The only thing left to do is to start it 
 
-```
+```bash
 # Start the service
 sudo service duplicati start
 
@@ -113,7 +113,7 @@ The MySQL binlog is a record of all the changes done to the database, it include
 
 Now, to access the web server we need to do some port forwarding, the Duplicati configuration server is only available locally for security reasons. For that we'll logout from ssh and login using some special flags:
 
-```
+```bash
 ssh -L 1234:localhost:8200 DW
 ```
 

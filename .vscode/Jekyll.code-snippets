@@ -29,5 +29,13 @@
 			"published: ${4:false}",
 			"---"
 		]
-	}
+	},
+
+ "Image": {
+	 "scope": "markdown",
+	 "prefix": "img",
+	 "body": [
+		 "![${1:description}](/images/${2:filename})",
+		 "*${1:description}*"]
+ }
 }
