@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: mining-xmr
 title:  "Mining Monero on Windows10"
 date:   2020-03-27 22:56:45 -0600
 image:  xmr-mining.png
