@@ -1,5 +1,5 @@
 ---
-lang: en
+lang: es
 ref: index
 layout: default
 ---
@@ -19,14 +19,13 @@ layout: default
 
 <div class="container">
 	<div class="row">
-	{% assign posts=site.posts | where:"lang", page.lang %}
-	{% if site.posts.size > 0 %}
-		{% for post in paginator.posts %}
-			{% if post.lang == page.lang %}
-				{% include article-content.html %}
-			{% endif %}
-		{% endfor %}
-	{% endif %}
+    <!-- {% if site.posts.size > 0 %} -->
+    {% for post in site.posts %}
+        {% if post.lang == page.lang %}
+            {% include article-content.html %}
+        {% endif %}
+    {% endfor %}
+    <!-- {% endif %} -->
 	</div>
 </div>
 {% include pagination.html %}

@@ -33,3 +33,20 @@ tag_permalink_style:  pretty
 sass:
   sass_dir: _sass
   style: compressed
+
+# Multilang
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/"
+    about:
+      name: "About"
+      url: "/about/"
+  es:
+    home:
+      name: "Inicio"
+      url: "/inicio/"
+    about:
+      name: "Acerca de"
+      url: "/acerca-de/"
