@@ -40,9 +40,6 @@
                   {% endif %}
                 {% endunless %}
               {% endfor %}
-              <!-- {% for page in site.t[page.lang] %}
-                <a href="{{ page[1] }}">{{ page.title }}</a>
-              {% endfor %} -->
             </ul>
 
           </div>
@@ -56,7 +53,13 @@
             {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
           
             {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-            {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+            {% assign distinct_langs = "" | split: ',' %}
+              {% for page in pages %} 
+                {% unless distinct_langs contains page.lang %}
+                  {% assign distinct_langs = distinct_langs | push: page.lang %}
+                    <a href="{{ page.url  }}" class="{{ page.lang }}">{{ page.lang }}</a> 
+                {% endunless %}
+              {% endfor %}  
           </div>
         </div>
 

@@ -19,13 +19,14 @@ layout: default
 
 <div class="container">
 	<div class="row">
-    <!-- {% if site.posts.size > 0 %} -->
-    {% for post in site.posts %}
-        {% if post.lang == page.lang %}
-            {% include article-content.html %}
-        {% endif %}
-    {% endfor %}
-    <!-- {% endif %} -->
+		{% assign posts=site.posts | where:"lang", page.lang %}
+		{% if site.posts.size > 0 %}
+			{% for post in paginator.posts %}
+				{% if post.lang == page.lang %}
+					{% include article-content.html %}
+				{% endif %}
+			{% endfor %}
+		{% endif %}
 	</div>
 </div>
 {% include pagination-es.html %}
