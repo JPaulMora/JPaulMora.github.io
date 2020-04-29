@@ -5,7 +5,7 @@
       <header class="header">
 
         <div class="logo">
-          <a class="logo__link" href="{{site.baseurl}}/">
+          <a class="logo__link" href="{{site.data.settings.author[page.lang].home}}">
           {%if site.data.settings.logo %}
             <img class="logo__image" src="{{ site.baseurl }}/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}">
           {% else %}
@@ -26,17 +26,23 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="{{site.baseurl}}/" class="nav__link">Home</a>
+                <a href="{{site.baseurl}}/" class="nav__link">{{ site.t[page.lang].home.name }}</a>
               </li>
-              {% for page in site.pages %}
-                {% unless page.name == 'tags.html' or page.name == '404.html' %}
-              {% if page.title %}
-              <li class="nav__item">
-                <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-              </li>
-              {% endif %}
+              {% assign lang = page.lang %}
+              {% for menu_page in site.pages %}
+                {% unless menu_page.name == 'tags.html' or menu_page.name == '404.html' %}
+                  {% if menu_page.title %}
+                  {% if menu_page.lang == lang %}
+                      <li class="nav__item">
+                        <a href="{{ menu_page.url | prepend: site.baseurl }}" class="nav__link">{{ menu_page.title }}</a>
+                      </li>
+                      {% endif %}
+                  {% endif %}
                 {% endunless %}
               {% endfor %}
+              <!-- {% for page in site.t[page.lang] %}
+                <a href="{{ page[1] }}">{{ page.title }}</a>
+              {% endfor %} -->
             </ul>
 
           </div>

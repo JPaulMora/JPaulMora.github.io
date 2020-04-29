@@ -1,9 +1,9 @@
 ---
-lang: en
+lang: es
 ref: about
 layout: page
-title: About
-permalink: /about/
+title: "Acerca de"
+permalink: /acerca-de/
 image: tmux.png
 ---
 

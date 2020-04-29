@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: bkp-linux-duplicati
 title:  "Backup your linux server with Duplicati"
 date:   2020-03-22 18:20:02 +0300
 image:  duplicati-header.jpg
