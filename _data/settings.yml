@@ -13,12 +13,14 @@ author:
     say-hello: Hello, I’m <strong>Juan Pablo Mora</strong>
     bio: I write about <strong>tech</strong>, <strong>programming</strong>, <strong>privacy</strong> and <strong>hacking</strong>, among other related topics. I share IT and programming tutorials, free resources and inspiration. Love <a href="https://soundcloud.com/juan-pa-mora">music</a> & running.
     home: /
+    follow-me: "Follow me"
   es:
     name: Juan Pablo Mora
     image: 8335656.jpeg
     say-hello: Hola, soy <strong>Juan Pablo Mora</strong>
     bio: Yo escribo sobre <strong>tecnología</strong>, <strong>programación</strong>, <strong>privacidad</strong> y <strong>hacking</strong>, dentro de otros tópicos relacionados. Comparto tutoriales de IT/TI y programación, recursos gratuitos e inspiración. Amo la <a href="https://soundcloud.com/juan-pa-mora">música</a> y correr.
     home: /inicio/
+    follow-me: "Sígueme "
 
 #-------------------------------
 # Contact links
