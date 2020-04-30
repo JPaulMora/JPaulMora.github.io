@@ -5,7 +5,7 @@ ref: how-to-properly-backup-mysql
 title:  "Cómo hacer una copia de seguridad adecuada de MySQL"
 date:   2020-03-22 22:21:55 +0300
 image:  mysql.png
-tags:   Backup Database Mysql
+tags:   Copia base datos Mysql
 published: true
 ---
 

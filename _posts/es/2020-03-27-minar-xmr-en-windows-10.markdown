@@ -5,7 +5,7 @@ ref: mining-xmr
 title:  "Minería de Monero en Windows10"
 date: 2020-03-27 22:56:45 -0600
 image: xmr-mining.png
-tags:   Monero de criptodivisa Minería de Windows10 
+tags:   Cryptomoneda Monero Windows10 Mining Minería 
 published: true
 ---
 

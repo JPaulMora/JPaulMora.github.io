@@ -5,7 +5,7 @@ ref: bkp-linux-duplicati
 title:  "Hacer copia de seguridad de Linux con Duplicati"
 date:   2020-03-22 18:20:02 +0300
 image:  duplicati-header.jpg
-tags:   Backup Linux Tools
+tags:   Copia Seguridad Linux Herramientas 
 published: true
 ---
 
