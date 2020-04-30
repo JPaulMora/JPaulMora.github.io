@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: how-to-properly-backup-mysql
 title:  "How to properly backup MySQL"
 date:   2020-03-22 22:21:55 +0300
 image:  mysql.png
