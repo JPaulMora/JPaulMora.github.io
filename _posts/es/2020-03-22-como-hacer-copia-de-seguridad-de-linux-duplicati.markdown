@@ -111,7 +111,7 @@ Mar 22 19:34:25 ubuntu systemd[1]: Started Duplicati web-server.
 
 ## MySQL binary log (Opcional)
 
-El binlog de MySQL es un registro de todos los cambios realizados en la base de datos, incluye herramientas muy útiles como la restauración a un punto específico en el tiempo, o incluso a una consulta SQL específica. [Revisa mi otro post sobre como habilitarlo]({% post_url 2020-03-22-como-hacer-copia-de-seguridad-adecuada-mysql %}), luego regresa para que podamos hacer una copia de seguridad de esa carpeta también.
+El binlog de MySQL es un registro de todos los cambios realizados en la base de datos, incluye herramientas muy útiles como la restauración a un punto específico en el tiempo, o incluso a una consulta SQL específica. [Revisa mi otro post sobre como habilitarlo]({% post_url es/2020-03-22-como-hacer-copia-de-seguridad-adecuada-mysql %}), luego regresa para que podamos hacer una copia de seguridad de esa carpeta también.
 
 # Configuración
 
