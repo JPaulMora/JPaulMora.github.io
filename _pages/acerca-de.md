@@ -7,25 +7,27 @@ permalink: /acerca-de/
 image: tmux.png
 ---
 
-Hi, my name is Juan Pablo Mora, welcome to my blog! This is my first attempt at a personal blog, for now I intend to post about whatever I find cool or useful in my day to day, I've played with hacking tools, IoT boards, lots of linux distros and develpment frameworks, all of which I plan to write about. Over time as I get better at writting, this blog should become my personal wiki and journal, which I hope some day will save someone a few debugging hours.
+Hola, me llamo Juan Pablo Mora, ¡bienvenido a mi blog! Este es mi primer intento de tener un blog personal, por ahora pretendo escribir sobre cualquier cosa que me parezca interesante o útil en mi día a día, he jugado con herramientas de hacking, IoT boards, muchas distribuciones de Linux y frameworks de desarrollo, sobre todo lo que planeo escribir. Con el tiempo, a medida que mejore en la escritura, este blog debería convertirse en mi wiki personal y mi diario, lo que espero que algún día le ahorre a alguien algunas horas de debugging.
+
 
 ***
 
-### Things I've worked on..
+### Cosas en las que he trabajado...
 
 #### Cognits
-<small>2020 - Present</small>
 
-I'm currently a full stack developer at [Cognits](https://www.cognits.co), I recently got my [Kony](https://www.kony.com) developer certification. For now, I look forward to keep working on this excelent company.
+<small>2020 - Presente</small>
+
+Actualmente soy un desarrollador full stack en [Cognits](https://www.cognits.co), recientemente obtuve mi certificación de desarrollador de [Kony](https://www.kony.com). Por ahora, espero seguir trabajando en esta excelente empresa.
 
 #### Deawebo Projects
 <small>2019 - Present</small>
 
-[Deawebo Projects](https://deaweboprojects.com) is my first official company, for now we offer consulting services for Websites and custom web applications.
+[Deawebo Projects](https://deaweboprojects.com) es mi primera empresa oficial, por ahora ofrecemos servicios de consultoría para sitios web y aplicaciones web personalizadas.
 
-#### 1st. Place Hacking Challenge Winner
+#### 1º. Lugar en este Desafío de Hacking
 
-For years I've liked the security aspects of technology, but I had nothing to show for it other than some CTF profiles here and there. I got a nice cash prize and a new TV. 
+Durante años me han gustado los aspectos de seguridad de la tecnología, pero no tenía nada que mostrar aparte de algunos perfiles de CTF aquí y allá. Sin embargo al ganar esta competencia, conseguí un buen premio en efectivo y un nuevo televisor.
 
 * [Source 0](https://revistaitnow.com/conozca-al-ganador-del-hacking-challenge-guatemala-2018/)
 * [Source 1](https://www.hackingchallenge.net/index.php/noticias/156-hacking-challenge-2018-guatemala-todo-un-exito)
@@ -33,4 +35,4 @@ For years I've liked the security aspects of technology, but I had nothing to sh
 #### Limitless Blockchain Technologies LLC
 <small>2018 - 2019</small>
 
-I worked as Lead Developer on the [Limitless VPN](https://limitlessvpn.com) project. I was in charge of the cryptocurrency mining aspect of the client, and slowly took over the security and quality aspects of the whole client side part of the project. 
+Trabajé como desarrollador principal en el proyecto [VPN sin límites](https://limitlessvpn.com). Estuve a cargo del aspecto de la minería de criptografía del cliente, y lentamente me hice cargo de los aspectos de seguridad y calidad de toda la parte del cliente del proyecto. 
