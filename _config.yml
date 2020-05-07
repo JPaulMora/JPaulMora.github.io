@@ -7,11 +7,20 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-multiple
   - jekyll-sitemap
   - jekyll/tagging
+  
 
-paginate: 5
-paginate_path: "/page/:num"
+paginate_multiple:
+  - paginate: 2
+    paginate_path: '/inicio/page:num/'
+    sub_dir: '/es'
+  - paginate: 2
+    paginate_path: '/index/page:num/'
+    sub_dir: '/en'
+    
+
 
 
 # Pages Path
@@ -33,3 +42,20 @@ tag_permalink_style:  pretty
 sass:
   sass_dir: _sass
   style: compressed
+
+# Multilang
+t:
+  en:
+    home:
+      name: "Home"
+      url: "/index"
+    about:
+      name: "About"
+      url: "/about/"
+  es:
+    home:
+      name: "Inicio"
+      url: "/inicio"
+    about:
+      name: "Acerca de"
+      url: "/acerca-de"

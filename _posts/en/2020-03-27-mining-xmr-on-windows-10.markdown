@@ -1,5 +1,7 @@
 ---
 layout: post
+lang: en
+ref: mining-xmr
 title:  "Mining Monero on Windows10"
 date:   2020-03-27 22:56:45 -0600
 image:  xmr-mining.png
@@ -79,7 +81,7 @@ We'll go to [FireIce's xmr-stak-rx releases page](https://github.com/fireice-uk/
 
 To run this, you need to extract it, so get it out of the zip folder and place it somewhere you like. In the video tutorial I use my Desktop, but it could be anywhere else like your Documents folder. 
 
-Now browse to the folder, and open the only Application (.exe) file, by default it's called `xmr-stak-rx.exe`. The miner will now start the walthrough process where it'll ask us all our previously aquired details/settings.
+Now browse to the folder, and open the only Application (.exe) file, by default it's called `xmr-stak-rx.exe`. The miner will now start the walkthrough process where it'll ask us all our previously aquired details/settings.
 
 #### Antivirus Warning
 
